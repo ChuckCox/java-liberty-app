@@ -17,7 +17,7 @@ spec:
   selector:
     app: "javalibertyapp-selector"
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: "javalibertyapp-deployment"
